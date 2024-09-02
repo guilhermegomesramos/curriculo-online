@@ -22,18 +22,25 @@ header {
 
 header > h1 {
 
-    font-size: 5vh;
+    font-size: 4.5vh;
     font-variant: small-caps;
 }
 
-header a, footer a {
+header a, footer a, p a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 
 }
 
-header a:hover, footer a:hover {
+p a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover, p a:hover {
     text-decoration: underline;
 }
 
@@ -41,6 +48,7 @@ section.info {
     background-color: white;
     padding: 10px;
 }
+
 
 section > p {
     width: auto;
@@ -66,5 +74,5 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 4px;
 }
