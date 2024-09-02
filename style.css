@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 10px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    background-color: darkslategrey;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header > h1 {
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section.info {
+    background-color: white;
+    padding: 10px;
+}
+
+section > p {
+    width: 600px;
+    text-align: justify;
+}
+
+section > p > img.imgcontato {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section > p > strong {
+    margin: 0px;
+}
+
+section > hr {
+    height: 1px;
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
