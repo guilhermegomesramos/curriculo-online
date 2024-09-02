@@ -7,7 +7,8 @@
 }
 
 body {
-    width: 700px;
+    width: auto;
+    
     margin: auto;
     background-color: darkslategrey;
 }
@@ -41,7 +42,7 @@ section.info {
 }
 
 section > p {
-    width: 600px;
+    width: auto;
     text-align: justify;
 }
 
