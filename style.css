@@ -42,6 +42,11 @@ header a, footer a, p a {
 
 }
 
+nav {
+    padding: 5px;
+    background-color: white;
+}
+
 p a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -68,14 +73,14 @@ section > ul > li.topicos {
     max-width: 400px;
 }
 
-section > p > b.topicostitulo{
-    margin: 0px;
-}
-
 section > p {
     width: auto;
     max-width: 600px;
-    text-align: justify;
+    text-align: left;
+}
+
+section > p > b.topicostitulo{
+    margin: 0px;
 }
 
 section > p > img.imgcontato {
@@ -105,4 +110,5 @@ footer {
     color: white;
     text-align: center;
     padding: 4px;
+    margin-bottom: 0px;
 }
